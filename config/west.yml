@@ -2,15 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/petejohanson
-    - name: sakasosu
-      url-base: https://github.com/sakasosu
+    - name: j-lum
+      url-base: https://github.com/j-lum
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: feat/pointers-move-scroll
       import: app/west.yml
-    - name: mitsuru-superstar
-      remote: sakasosu
+    - name: sora-peripheral-art
+      remote: j-lum
       revision: main 
   self:
     path: config
