@@ -1,16 +1,14 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: sakasosu
+      url-base: https://github.com/sakasosu
       # Additional modules containing boards/shields/custom code can be listed here as well.
       # See:
       # - https://zmk.dev/docs/features/modules
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
-    - name: gpeye
-      url-base: https://github.com/GPeye
   projects:
-    - name: mario-peripheral-animation
-      remote: gpeye
+    - name: mitsuru-superstar
+      remote: sakasosu
       revision: main 
     - name: zmk
       remote: zmkfirmware
