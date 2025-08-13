@@ -1,11 +1,13 @@
 manifest:
   remotes:
-    - name: sakasosu
-      url-base: https://github.com/sakasosu
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
       # Additional modules containing boards/shields/custom code can be listed here as well.
       # See:
       # - https://zmk.dev/docs/features/modules
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
+    - name: sakasosu
+      url-base: https://github.com/sakasosu
   projects:
     - name: mitsuru-superstar
       remote: sakasosu
